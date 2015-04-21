@@ -21,6 +21,7 @@ right:175px;
 margin-right: 5px;
 }
 
+
 header{
   background-color:#f9c640;
   width:165%;
@@ -28,8 +29,9 @@ header{
 }
 
 h4{
-  font-size:2rem;
+  font-size:1.5rem;
   text-align: center;
+  color:#000;
   }
 
 
@@ -46,13 +48,13 @@ nav li{
   text-align:left;
   padding: 0.5em;
   float:left;
-  width:30%;
+  width:25%;
   background-color:#f6ea45;
 }
 
 
 nav li:hover {
-  background-color:#e18c33;
+  background-color:#c33738;
 }
 nav a{
   padding:0.5em;
@@ -82,10 +84,8 @@ nav ul{
 
   h3 {
     font-size: 0rem;
-    color:#fff;
+    color:#d13049;
     text-align: center;
-    position:absolute;
-    bottom:120px;
     left:5px;
     }
 
@@ -110,34 +110,63 @@ div img{
 }
 
 .Tacos{
-  background-color:#f9c640;
+  background-color:#ffffff;
   overflow: hidden;
 }
 
 .Sopa{
-  background-color:#f9c640;
-
+  background-color:#ffffff;
   overflow: hidden;
   color:#000
   }
 
 .Drinks{
-  background-color:#f9c640;
+  background-color:#ffffff;
   overflow: hidden;
   color:#000
 }
 .ceviche{
-    background-color:#f9c640;
-    border: 1px solid white;
+    background-color:#ffffff;
     overflow: hidden;
   }
 
+.coronas{
+  background-color:#ffffff;
+  overflow: hidden;
+  }
+
+.contactus{
+background-color:#f9c640;
+overflow: hidden;
+}
+
+.aboutus{
+  background-color:#f6ea45;
+  overflow: hidden;
+}
+
+.menu{
+  background-color:#e18c33;
+  overflow:hidden;
+}
+
+.promotions{
+  background-color:#e1b436;
+  overflow:hidden;
+}
+
+.contactus{
+  background-color:#da4c30;
+  overflow:hidden;
+}
+
+
  h2{
   margin:0;
-  color:#fff;
-  text-align: center;
+  color:#f79f3b;
+  text-align:center;
   width:185%;
-  font-size:2rem;
+  font-size:1.8rem;
   position:relative;
   top:2px;
   right:179px;
