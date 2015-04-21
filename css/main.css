@@ -148,11 +148,6 @@ div img{
   overflow: hidden;
   }
 
-.contactus{
-background-color:#f9c640;
-overflow: hidden;
-}
-
 .aboutus{
   background-color:#f6ea45;
   overflow: hidden;
@@ -168,9 +163,15 @@ overflow: hidden;
   overflow:hidden;
 }
 
-.contactus{
-  background-color:#da4c30;
+.Contactus{
+  background-color:#d13049;
   overflow:hidden;
+
+}
+.contactus{
+  background-color:#f9c640;
+  overflow:hidden;
+
 }
 
 .promotion{
@@ -257,7 +258,7 @@ overflow: hidden;
   }
 
 .white-text{
-  font-size:1.5rem;
+  font-size:1.2rem;
   text-align: center;
   color:#fff;
   background-color:#d13049;
