@@ -7,7 +7,7 @@ html{
      box-sizing: inherit;
    }
 
-h1,h2,h3,h4,h5,h6,h7,p,nav{
+h1,h2,h3,h4,h5,h6,p,nav{
   font-family: 'Oswald', bold;
 }
 
@@ -187,16 +187,31 @@ div img{
   display:block;
 }
 
+.Traditionalplates{
+  margin:0;
+  color:#fff;
+  background-color:rgba(247,159,59,0.5);
+  text-align:center;
+  width:185%;
+  font-size:1.5rem;
+  position:relative;
+  top:117px;
+  right:179px;
+  margin-right: 12px;
+  display:block;
+
+}
+
 .homemadeentries{
 
   margin:0;
-  color:#000;
-  background-color:#d74b61;
+  color:#fff;
+  background-color:rgba(246,234,69,0.5);
   text-align:center;
   width:185%;
-  font-size:1.8rem;
+  font-size:1.5rem;
   position:relative;
-  top:2px;
+  top:128px;
   right:179px;
   margin-right: 12px;
   display:block;
@@ -204,9 +219,16 @@ div img{
 
 .coldhomemadebeverages{
     font-size:1.5rem;
-    text-align: center;
-    color:#000;
-    background-color:#f6ea45;
+    text-align:center;
+    color:#fff;
+    width:185%;
+    margin-right:12px;
+    background-color:rgba(215,75,97,0.5);
+    position:relative;
+    top:145px;
+    right:179px;
+    margin:0;
+    display:block;
     }
 
  h2{
@@ -262,4 +284,10 @@ div img{
   text-align: center;
   color:#fff;
   background-color:#d13049;
+}
+
+
+header {
+	/* Will add a background to the whole page */
+	background-image: url("../images/panchovilla.jpg");
 }
