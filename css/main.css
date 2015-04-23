@@ -1,33 +1,35 @@
 html{
    box-sizing: border-box;
 
+   font: normal 100%/1.5 "Oswald", sans-serif;
+
    }
 
    *, *::before, *::after {
      box-sizing: inherit;
    }
 
-h1,h2,h3,h4,h5,h6,p,nav,dl{
-  font-family: 'Oswald', bold;
-}
-
 
 h1{
-margin:0;
-color:#000;
-text-align: center;
-position:relative;
-top:8px;
-right:175px;
-margin-right: 5px;
+  margin: 0;
+  position: absolute;
+  padding: 0.5rem 0 1rem;
+  top: 1.9rem;
+  left:1.8rem;
+  width: 100%;
+
+  font-size: 2.5rem;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.8);
 }
 
 
 header{
   background-color:#f9c640;
-  width:165%;
+  width:100%;
   display:block;
 }
+
 
 h4{
   font-size:1.5rem;
@@ -38,12 +40,13 @@ h4{
 
 
 nav{
-overflow:hidden;
-clear:left;
-margin:0;
-
+padding-top: 0.5rem;
 }
 
+.logo{
+  margin: 0 auto;
+  width: 25%;
+}
 
 
 dl{
@@ -55,30 +58,32 @@ dl{
 }
 
 nav li{
-  text-align:left;
+  text-align:center;
   padding: 0.5em;
   float:left;
-  width:25%;
+  width:50%;
   background-color:#f6ea45;
   font-size:1em;
+
 }
 
-
-nav li:hover {
-  background-color:#c33738;
-}
 nav a{
   padding:0.5em;
   color:#000;
   text-decoration:none;
-  font-size:1rem;
-}
+  display: block;
+  padding: 0.2em 0.3em;
+  font-size: 1.125rem;
+  text-decoration: none;
+  }
 
 nav ul{
-
-  list-style-type: none;
   padding:0;
   margin:0;
+  overflow: hidden;
+
+  list-style-type: none;
+  text-align: left;
   }
 
   header p{
@@ -98,7 +103,7 @@ nav ul{
       font-size:1.85rem;
       float:none;
       position:absolute;
-      top:178px;
+      bottom:225px;
       right:23px;
       color:#fff;
     }
@@ -109,15 +114,8 @@ nav ul{
   color:#000;
 
 }
- .panchovilla{
-   width:7.5%;
-   position:absolute;
-   left:13px;
-   top:8px;
-   border:0;
- }
 
-img{
+img {
      width:100%;
      text-align:center;
 
@@ -293,4 +291,36 @@ div img{
   text-align: center;
   color:#fff;
   background-color:#d13049;
+}
+
+.wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+.banner {
+  margin: 0 0 1.5rem;
+  padding: 0;
+  position: relative;
+}
+
+.banner figcaption {
+  top: 155px;
+  padding: 0.75rem 0;
+  position: absolute;
+  width: 100%;
+
+  color: #fff;
+  font-size: 1.75rem;
+  font-style: bold;
+  text-align: center;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.8);
+}
+
+footer {
+  text-align: center;
 }
