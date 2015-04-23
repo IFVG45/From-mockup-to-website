@@ -7,9 +7,10 @@ html{
      box-sizing: inherit;
    }
 
-h1,h2,h3,h4,h5,h6,p,nav{
+h1,h2,h3,h4,h5,h6,p,nav,dl{
   font-family: 'Oswald', bold;
 }
+
 
 h1{
 margin:0;
@@ -45,12 +46,21 @@ margin:0;
 
 
 
+dl{
+  font-size:1.0rem;
+  text-align:left;
+  color:#000;
+
+
+}
+
 nav li{
   text-align:left;
   padding: 0.5em;
   float:left;
   width:25%;
   background-color:#f6ea45;
+  font-size:1em;
 }
 
 
@@ -61,7 +71,7 @@ nav a{
   padding:0.5em;
   color:#000;
   text-decoration:none;
-  font-size:1.15 rem;
+  font-size:1rem;
 }
 
 nav ul{
@@ -76,14 +86,7 @@ nav ul{
   }
 
 
-  header .symbol{
-    font-size:7em;
-    padding:0;
-  }
-
-
-
-  h3 {
+   h3 {
     font-size: 0rem;
     color:#d13049;
     text-align: center;
@@ -100,6 +103,12 @@ nav ul{
       color:#fff;
     }
 
+.blacktext{
+  text-align:center;
+  font-size:1.0rem;
+  color:#000;
+
+}
  .panchovilla{
    width:7.5%;
    position:absolute;
@@ -266,15 +275,15 @@ div img{
    }
 
    h6{
-    margin:0;
     color:#000;
+    margin:0;
     background-color:#f9c640;
     text-align:center;
     width:185%;
-    font-size:1.5rem;
     position:relative;
-    top:2px;
+    top:5px;
     right:179px;
+    font-size:1.5rem;
     margin-right: 12px;
     display:block;
   }
@@ -284,10 +293,4 @@ div img{
   text-align: center;
   color:#fff;
   background-color:#d13049;
-}
-
-
-header {
-	/* Will add a background to the whole page */
-	background-image: url("../images/panchovilla.jpg");
 }
