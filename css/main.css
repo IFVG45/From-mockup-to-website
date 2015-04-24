@@ -261,13 +261,6 @@ article img {
   display:block;
 }
 
- footer{
-   background-color:#f79f3b;
-   color:#fff;
-   text-align: center;
-   font-size: .8rem;
-   padding:0.5em;
-   }
 
  h3{
    text-align: center;
@@ -330,9 +323,26 @@ p {
   text-align: center;
   text-shadow: 0 2px 3px rgba(0,0,0,0.8);
 }
+
 body {
   text-align: center;
   margin: 0;
   min-height: 23vh;
+
+  }
+
+
+.icons{
+position:absolute;
+right:32px;
+width:405px;
+}
+
+footer{
+  background-color:#f79f3b;
+  text-align: center;
+  padding-top: 1.5rem;
+  width:305px;
+  position:absolute;
 
   }
