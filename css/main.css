@@ -332,17 +332,15 @@ body {
   }
 
 
-.icons{
-position:absolute;
-right:32px;
-width:405px;
-}
+  footer {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
 
-footer{
-  background-color:#f79f3b;
-  text-align: center;
-  padding-top: 1.5rem;
-  width:305px;
-  position:absolute;
+    font-size: 0.75rem;
+    text-align: center;
+    background-color: #f79f3b;
+  }
 
+  footer a {
+    color: #000;
   }
